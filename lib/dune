@@ -1,0 +1,3 @@
+(library
+ (name momogram)
+ (libraries core_kernel js_of_ocaml))

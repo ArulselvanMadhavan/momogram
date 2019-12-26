@@ -1,0 +1,4 @@
+(executable
+ (public_name momogram)
+ (name main)
+ (libraries momogram core_kernel js_of_ocaml opium))
