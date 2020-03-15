@@ -1,0 +1,6 @@
+* Momogram
+** Setup instructions
+   - Followed https://github.com/shonfeder/nd_project/blob/master/front-end-ocaml-intro.org
+   - Installed ocaml-vdom, gen_js_api
+** 
+
