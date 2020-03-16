@@ -1,0 +1,4 @@
+(library
+  (name bonsai_examples)
+  (libraries bonsai.web)
+  (preprocess (pps ppx_jane)))
