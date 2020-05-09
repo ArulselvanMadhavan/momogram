@@ -4,7 +4,6 @@ open Bonsai_examples
 let (_ : _ Start.Handle.t) =
   Start.start_standalone
     ~initial_input:()
-    ~initial_model:Counter.initial_model
     ~bind_to_element_with_id:"counter"
-    Counter.application_component
+    Counter.application
 

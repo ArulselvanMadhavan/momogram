@@ -3,4 +3,27 @@
    - Followed https://github.com/shonfeder/nd_project/blob/master/front-end-ocaml-intro.org
    - Installed ocaml-vdom, gen_js_api
 ** 
-
+** Dune
+** Opam
+   - Installing latest version of bonsai
+   - Had to pin several repos manually
+     #+BEGIN_SRC bash
+arulmadhavan-MBP-7745 ~/d/o/momogram (master|✚2…2) $ opam pin list
+base.v0.13.1                       git  git+ssh://git@github.com/janestreet/base.git#master
+bin_prot.v0.13.0                   git  git+ssh://git@github.com/janestreet/bin_prot.git#master
+bonsai.v0.13.0                     git  git+ssh://git@github.com/janestreet/bonsai.git#master
+core_kernel.v0.13.1                git  git+ssh://git@github.com/janestreet/core_kernel.git#master
+incr_dom.v0.13.0                   git  git+ssh://git@github.com/janestreet/incr_dom.git#master
+incr_map.v0.13.0                   git  git+ssh://git@github.com/janestreet/incr_map.git#master
+incremental.v0.13.0                git  git+ssh://git@github.com/janestreet/incremental.git#master
+ppx_expect.v0.13.0                 git  git+ssh://git@github.com/janestreet/ppx_expect.git#master
+ppx_hash.v0.13.0                   git  git+ssh://git@github.com/janestreet/ppx_hash.git#master
+ppx_pattern_bind.v0.13.1           git  git+ssh://git@github.com/janestreet/ppx_pattern_bind.git#master
+ppx_sexp_conv.v0.13.0              git  git+ssh://git@github.com/janestreet/ppx_sexp_conv.git#master
+protocol_version_header.v0.13.0    git  git+ssh://git@github.com/janestreet/protocol_version_header.git#master
+sexplib0.v0.13.0                   git  git+ssh://git@github.com/janestreet/sexplib0.git#master
+virtual_dom.v0.13.0                git  git+ssh://git@github.com/janestreet/virtual_dom.git#master
+     #+END_SRC
+** TODO
+   - Fix formatting issues
+   - Newly installed bonsai - compile playground with dune build
