@@ -4,18 +4,18 @@ open! Core_kernel
 module Model = struct
   type t =
     { data : unit Int.Map.t
-      ; count : int
+    ; count : int
     }
-      [@@deriving fields, equal, sexp]
-  
+  [@@deriving fields, equal, sexp]
+
   let default = { data = Int.Map.empty; count = 0 }
 end
 
 module Action = struct
   type t =
-    Add
-  | Remove of int
-                [@@deriving sexp_of]
+    | Add
+    | Remove of int
+  [@@deriving sexp_of]
 end
 
 (* let state_component =
@@ -29,7 +29,4 @@ end
  *         let key = model.Model.count in
  *         { data = Map.add_exn model.data ~key ~data:(); count = key + 1 }
  *       | Action.Remove key -> { model with data = Map.remove model.Model.data key })
- * ;;   *)
-
-
-
+ * ;; *)
